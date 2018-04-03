@@ -1,0 +1,28 @@
+@font-face {
+	font-family: 'Track';
+	src: url(track.otf);
+}
+
+body{
+	background: black;
+  font-family: 'Track', sans-serif;
+}
+
+#clockdiv{
+	color: #0080C9;
+	display: inline-block;
+	font-size: 650px;
+	line-height: 1080px
+}
+
+#clockdiv.red{
+	color: #E30613;
+}
+
+#clockdiv > div{
+	display: inline-block;
+}
+
+#clockdiv div > span{
+	display: inline-block;
+}
