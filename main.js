@@ -40,4 +40,5 @@ function initializeClock(id) {
 
 document.addEventListener("keypress", (event) => {
   initializeClock('clockdiv');
+  document.getElementById('clockdiv').classList.remove('red');
 });
